@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Redesign</title>
+    <!-- import javascript variables and functions -->
+    <script
+      src="https://kit.fontawesome.com/06cafcd034.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="page">
+      <h1 class="head">
+        <span>
+          <a href="home.html" style="text-decoration: none;">
+            <span class="hacker">Hacker</span>
+            <span class="news">News</span>
+          </a>
+        </span>
+        <div class="nav">
+          <a class="active" href="#home">Top</a>
+          <a href="#new">New</a>
+          <a href="#past">Past</a>
+          <a href="#comments">Comments</a>
+          <a href="#jobs">Jobs</a>
+          <a href="#submit">Submit</a>
+          <a href="#profile">Profile</a>
+          <input type="text" placeholder="Search.." name="search" />
+        </div>
+      </h1>
+
+      <hr />
+
+      <div class="posts">
+        <div class="post_horizontal" id="post1">
+          <p class="votes">881</p>
+          <div class="arrow_container">
+            <div>
+              <img class="arrows" src="assets/up_arrow.png" alt="Upvote" />
+            </div>
+            <div>
+              <img class="arrows" src="assets/down_arrow.png" alt="Downvote" />
+            </div>
+          </div>
+          <a
+            class="pad"
+            href="https://twitter.com/github?ref_src=twsrc%5Etfw"
+            style="text-decoration: none;"
+          >
+            <h1 class="post_title">
+              GitHub Copilot, with “public code” blocked, emits my copyrighted
+              code
+            </h1>
+          </a>
+        </div>
+        <div class="center">
+          <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">
+              <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">
+                @github
+              </a>
+              copilot, with &quot;public code&quot; blocked, emits large chunks
+              of my copyrighted code, with no attribution, no LGPL license. For
+              example, the simple prompt &quot;sparse matrix transpose,
+              cs_&quot; produces my cs_transpose in CSparse. My code on left,
+              github on right. Not OK.
+              <a href="https://t.co/sqpOThi8nf">pic.twitter.com/sqpOThi8nf</a>
+            </p>
+            &mdash; Tim Davis (@DocSparse)
+            <a
+              href="https://twitter.com/DocSparse/status/1581461734665367554?ref_src=twsrc%5Etfw"
+            >
+              October 16, 2022
+            </a>
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+
+        <div class="box">
+          <p class="buttons">Share</p>
+          <img
+            class="buttons comment"
+            src="assets/comment_icon.png"
+            alt="comment"
+          />
+          <p class="posted">Posted 1 Day Ago</p>
+        </div>
+
+        &nbsp; &nbsp; &nbsp;
+
+        <div class="post_horizontal" id="post2">
+          <p class="votes">206</p>
+          <div class="arrow_container">
+            <div>
+              <img class="arrows" src="assets/up_arrow.png" alt="Upvote" />
+            </div>
+            <div>
+              <img class="arrows" src="assets/down_arrow.png" alt="Downvote" />
+            </div>
+          </div>
+          <a
+            href="https://metaphysic.ai/nvidias-implicit-warping-is-a-potentially-powerful-deepfake-technique/"
+            style="text-decoration: none;"
+          >
+            <h1 class="post_title">
+              Nvidia's Implicit Warping is a potentially powerful deepfake
+              technique
+            </h1>
+          </a>
+        </div>
+        <div class="center">
+          <a
+            href="https://metaphysic.ai/nvidias-implicit-warping-is-a-potentially-powerful-deepfake-technique/"
+          >
+            <img src="assets/nvidia.jpg" alt="NVIDIA" />
+          </a>
+        </div>
+
+        <div class="box">
+          <p class="buttons">Share</p>
+          <img
+            class="buttons comment"
+            src="assets/comment_icon.png"
+            alt="comment"
+          />
+          <p class="posted">Posted 2 Days Ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

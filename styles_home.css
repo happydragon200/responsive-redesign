@@ -1,0 +1,58 @@
+body {
+  background-color: turquoise;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3vw;
+  color: orangered;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eighty {
+  width: 80%;
+  height: auto;
+}
+
+.twenty {
+  width: 22%;
+  height: 22%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.shrink {
+  margin-right: auto;
+}
+
+hr {
+  border-color: black;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rainbow {
+  color: rgb(160, 160, 25);
+}
+
+.red {
+  color: red
+}
